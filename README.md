@@ -1,8 +1,6 @@
 # Fawry Data Engineering Pipeline
 
-"""
-This is the full README.md content for the Fawry Data Engineering Pipeline GitHub repository.
-"""
+
 
 README_content = """
 # Fawry Data Engineering Pipeline 
