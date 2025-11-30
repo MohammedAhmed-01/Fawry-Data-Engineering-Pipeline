@@ -157,7 +157,7 @@ Once data is processed, it powers multiple business services:
 
 ## 📐 Pipeline Diagram (for Draw.io)
 
-![Fawry-Data-Engineering-Pipeline](diagram/FawryPipeline.png)
+![Fawry-Data-Engineering-Pipeline](diagram/Fawry-Pipeline.png)
 
 ### Draw.io Steps:
 
