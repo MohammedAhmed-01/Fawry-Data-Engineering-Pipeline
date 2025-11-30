@@ -192,7 +192,7 @@ You can recreate this diagram in **Draw.io** using these components:
 +-------------------------------------------------+
 
 ```
-! [Fawry-Data-Engineering-Pipeline](diagram/Fawary Piprline.png)
+![Fawry-Data-Engineering-Pipeline](diagram/Fawary Piprline.png)
 
 
 
