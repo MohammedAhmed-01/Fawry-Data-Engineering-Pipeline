@@ -190,8 +190,11 @@ You can recreate this diagram in **Draw.io** using these components:
 +-------------------------------------------------+
 | Dashboards | ML Models | Analytics | Applications |
 +-------------------------------------------------+
-![Fawry-Data-Engineering-Pipeline](diagram/Fawry pipline.png)
+
 ```
+![Fawry-Data-Engineering-Pipeline](diagram/Fawary Piprline.png)
+
+
 
 ### Draw.io Steps:
 
