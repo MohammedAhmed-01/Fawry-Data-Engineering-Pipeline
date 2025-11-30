@@ -1,3 +1,10 @@
+# Fawry Data Engineering Pipeline
+
+"""
+This is the full README.md content for the Fawry Data Engineering Pipeline GitHub repository.
+"""
+
+README_content = """
 # Fawry Data Engineering Pipeline 
 
 This repository contains a complete breakdown of a **basic end-to-end data engineering pipeline** inspired by how Fawry (Egypt’s digital payment platform) might structure its data systems. The goal is to understand how modern fintech companies collect, process, store, and serve data at scale.
@@ -60,12 +67,12 @@ A multi-layer storage architecture ensures scalability and reliability:
 
 ### **2.1 Data Lake (Raw Storage)**
 
-Stores raw, unprocessed data in formats like JSON/CSV/Parquet.
+Stores raw, unprocessed data in formats like JSON/CSV/Parquet.  
 Used for ML, reprocessing, and analytics.
 
 ### **2.2 Data Warehouse (Structured Storage)**
 
-Stores cleaned, validated, and business-ready data.
+Stores cleaned, validated, and business-ready data.  
 Used by BI, finance, and operations.
 
 ### **2.3 Operational Databases / NoSQL**
@@ -155,46 +162,7 @@ Once data is processed, it powers multiple business services:
 
 ## 📐 Pipeline Diagram (for Draw.io)
 
-You can recreate this diagram in **Draw.io** using these components:
-
-```
-[User / POS / App]
-        |
-        v
-+---------------------------+
-|   Ingestion Layer         |
-| (APIs, Streaming, Batch)  |
-+---------------------------+
-        |
-        v
-+---------------------------+
-| Real-Time Processing      |
-| (Validation, Fraud, RT)   |
-+---------------------------+
-        |
-        v
-[Operational DB / Cache]
-        |
-        v
-[Raw Data Lake]
-        |
-        v
-+---------------------------+
-| Batch ETL / ELT           |
-+---------------------------+
-        |
-        v
-[Data Warehouse]
-        |
-        v
-+-------------------------------------------------+
-| Dashboards | ML Models | Analytics | Applications |
-+-------------------------------------------------+
-
-```
-
-![Fawry-Data-Engineering-Pipeline](diagram/Fawary Piprline.png)
-
+![Fawry-Data-Engineering-Pipeline](diagram/Fawry-Pipeline.png)
 
 ### Draw.io Steps:
 
@@ -219,8 +187,8 @@ You can recreate this diagram in **Draw.io** using these components:
 
 ```
 📦 fawry-data-pipeline
- ┣ 📁 diagrams
- ┃ ┗ pipeline-drawio.png
+ ┣ 📁 diagram
+ ┃ ┗ Fawry-Pipeline.png
  ┣ 📁 docs
  ┃ ┗ detailed-analysis.md
  ┣ 📁 examples
@@ -232,10 +200,10 @@ You can recreate this diagram in **Draw.io** using these components:
 
 ## 🔗 References
 
-* Fawry Official Website – Company Overview
-* Fawry Payment System Insights
-* Forbes Middle East – Fawry Fintech Profile
-* Egyptian Digital Payments Market Reports
+* Fawry Official Website – Company Overview  
+* Fawry Payment System Insights  
+* Forbes Middle East – Fawry Fintech Profile  
+* Egyptian Digital Payments Market Reports  
 
 ---
 
@@ -244,3 +212,9 @@ You can recreate this diagram in **Draw.io** using these components:
 This project is for **educational and demonstration purposes only**.
 
 ---
+
+## 📌 GitHub Repository
+
+You can view the full project and diagrams here:  
+**[Fawry Data Engineering Pipeline](https://github.com/MohammedAhmed-01/Fawry-Data-Engineering-Pipeline)**
+"""
